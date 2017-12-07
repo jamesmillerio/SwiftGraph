@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABE91081FD4BFE200EF7F34 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91071FD4BFE200EF7F34 /* main.swift */; };
+		1ABE911F1FD4C2F200EF7F34 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91101FD4C2F200EF7F34 /* Stack.swift */; };
+		1ABE91201FD4C2F200EF7F34 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91111FD4C2F200EF7F34 /* Queue.swift */; };
+		1ABE91211FD4C2F200EF7F34 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91151FD4C2F200EF7F34 /* DFS.swift */; };
+		1ABE91221FD4C2F200EF7F34 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91161FD4C2F200EF7F34 /* BFS.swift */; };
+		1ABE91231FD4C2F200EF7F34 /* NAryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91181FD4C2F200EF7F34 /* NAryNode.swift */; };
+		1ABE91241FD4C2F200EF7F34 /* BinaryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91191FD4C2F200EF7F34 /* BinaryNode.swift */; };
+		1ABE91251FD4C2F200EF7F34 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE911A1FD4C2F200EF7F34 /* BinaryTree.swift */; };
+		1ABE91271FD4CDAD00EF7F34 /* TraversalBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91261FD4CDAD00EF7F34 /* TraversalBase.swift */; };
+		1ABE912A1FD4CFB800EF7F34 /* Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91291FD4CFB800EF7F34 /* Traversal.swift */; };
+		1ABE912C1FD5E9D100EF7F34 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE912B1FD5E9D100EF7F34 /* AVLTree.swift */; };
+		1ABE912E1FD74CB500EF7F34 /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE912D1FD74CB500EF7F34 /* RedBlackTree.swift */; };
+		1ABE91321FD74D0D00EF7F34 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91311FD74D0D00EF7F34 /* Color.swift */; };
+		1ABE91341FD7652100EF7F34 /* NodeOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91331FD7652100EF7F34 /* NodeOrientation.swift */; };
+		1ABE91391FD7CDEE00EF7F34 /* DirectedGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91381FD7CDEE00EF7F34 /* DirectedGraph.swift */; };
+		1ABE913B1FD7CDF700EF7F34 /* UndirectedGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE913A1FD7CDF700EF7F34 /* UndirectedGraph.swift */; };
+		1ABE913F1FD7CF1100EF7F34 /* DirectedVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE913E1FD7CF1100EF7F34 /* DirectedVertex.swift */; };
+		1ABE91421FD7CF2B00EF7F34 /* UndirectedVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91411FD7CF2B00EF7F34 /* UndirectedVertex.swift */; };
+		1ABE91441FD7CF4200EF7F34 /* UndirectedEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91431FD7CF4200EF7F34 /* UndirectedEdge.swift */; };
+		1ABE91461FD7CF4C00EF7F34 /* DirectedEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91451FD7CF4C00EF7F34 /* DirectedEdge.swift */; };
+		1ABE91491FD841B300EF7F34 /* DirectedTraversalBFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91481FD841B300EF7F34 /* DirectedTraversalBFS.swift */; };
+		1ABE914B1FD8420800EF7F34 /* DirectedGraphTraversalBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE914A1FD8420800EF7F34 /* DirectedGraphTraversalBase.swift */; };
+		1ABE914D1FD84A2C00EF7F34 /* DirectedTraversalDFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE914C1FD84A2C00EF7F34 /* DirectedTraversalDFS.swift */; };
+		1ABE914F1FD84B8A00EF7F34 /* TraversalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE914E1FD84B8A00EF7F34 /* TraversalColor.swift */; };
+		1ABE91511FD871CA00EF7F34 /* NAryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91501FD871CA00EF7F34 /* NAryTree.swift */; };
+		1ABE91541FD8757700EF7F34 /* NAryTraversalBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91531FD8757700EF7F34 /* NAryTraversalBase.swift */; };
+		1ABE91561FD875AC00EF7F34 /* NAryDFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91551FD875AC00EF7F34 /* NAryDFS.swift */; };
+		1ABE915A1FD89F0700EF7F34 /* UndirectedGraphTraversalBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91591FD89F0700EF7F34 /* UndirectedGraphTraversalBase.swift */; };
+		1ABE915C1FD89F3900EF7F34 /* UndirectedTraversalDFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE915B1FD89F3900EF7F34 /* UndirectedTraversalDFS.swift */; };
+		1ABE915F1FD8A6EA00EF7F34 /* NAryTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE915E1FD8A6EA00EF7F34 /* NAryTesting.swift */; };
+		1ABE91611FD8A6FE00EF7F34 /* AVLTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91601FD8A6FE00EF7F34 /* AVLTesting.swift */; };
+		1ABE91631FD8A70C00EF7F34 /* RedBlackTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91621FD8A70C00EF7F34 /* RedBlackTesting.swift */; };
+		1ABE91651FD8A71F00EF7F34 /* BSTTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91641FD8A71F00EF7F34 /* BSTTesting.swift */; };
+		1ABE91671FD8A75400EF7F34 /* DirectedGraphTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91661FD8A75400EF7F34 /* DirectedGraphTesting.swift */; };
+		1ABE91691FD8A75E00EF7F34 /* UndirectedGraphTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE91681FD8A75E00EF7F34 /* UndirectedGraphTesting.swift */; };
+		1ABE916B1FD8A7C300EF7F34 /* TestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE916A1FD8A7C300EF7F34 /* TestSuite.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1ABE91021FD4BFE200EF7F34 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1ABE91041FD4BFE200EF7F34 /* SwiftGraphTerminal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftGraphTerminal; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABE91071FD4BFE200EF7F34 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1ABE91101FD4C2F200EF7F34 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		1ABE91111FD4C2F200EF7F34 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		1ABE91151FD4C2F200EF7F34 /* DFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		1ABE91161FD4C2F200EF7F34 /* BFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		1ABE91181FD4C2F200EF7F34 /* NAryNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NAryNode.swift; sourceTree = "<group>"; };
+		1ABE91191FD4C2F200EF7F34 /* BinaryNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryNode.swift; sourceTree = "<group>"; };
+		1ABE911A1FD4C2F200EF7F34 /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		1ABE911B1FD4C2F200EF7F34 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		1ABE911C1FD4C2F200EF7F34 /* SwiftGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftGraph.h; sourceTree = "<group>"; };
+		1ABE911D1FD4C2F200EF7F34 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		1ABE91261FD4CDAD00EF7F34 /* TraversalBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraversalBase.swift; sourceTree = "<group>"; };
+		1ABE91291FD4CFB800EF7F34 /* Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traversal.swift; sourceTree = "<group>"; };
+		1ABE912B1FD5E9D100EF7F34 /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
+		1ABE912D1FD74CB500EF7F34 /* RedBlackTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackTree.swift; sourceTree = "<group>"; };
+		1ABE91311FD74D0D00EF7F34 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1ABE91331FD7652100EF7F34 /* NodeOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeOrientation.swift; sourceTree = "<group>"; };
+		1ABE91381FD7CDEE00EF7F34 /* DirectedGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectedGraph.swift; sourceTree = "<group>"; };
+		1ABE913A1FD7CDF700EF7F34 /* UndirectedGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndirectedGraph.swift; sourceTree = "<group>"; };
+		1ABE913E1FD7CF1100EF7F34 /* DirectedVertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectedVertex.swift; sourceTree = "<group>"; };
+		1ABE91411FD7CF2B00EF7F34 /* UndirectedVertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndirectedVertex.swift; sourceTree = "<group>"; };
+		1ABE91431FD7CF4200EF7F34 /* UndirectedEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndirectedEdge.swift; sourceTree = "<group>"; };
+		1ABE91451FD7CF4C00EF7F34 /* DirectedEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectedEdge.swift; sourceTree = "<group>"; };
+		1ABE91481FD841B300EF7F34 /* DirectedTraversalBFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectedTraversalBFS.swift; sourceTree = "<group>"; };
+		1ABE914A1FD8420800EF7F34 /* DirectedGraphTraversalBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectedGraphTraversalBase.swift; sourceTree = "<group>"; };
+		1ABE914C1FD84A2C00EF7F34 /* DirectedTraversalDFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectedTraversalDFS.swift; sourceTree = "<group>"; };
+		1ABE914E1FD84B8A00EF7F34 /* TraversalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraversalColor.swift; sourceTree = "<group>"; };
+		1ABE91501FD871CA00EF7F34 /* NAryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAryTree.swift; sourceTree = "<group>"; };
+		1ABE91531FD8757700EF7F34 /* NAryTraversalBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAryTraversalBase.swift; sourceTree = "<group>"; };
+		1ABE91551FD875AC00EF7F34 /* NAryDFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAryDFS.swift; sourceTree = "<group>"; };
+		1ABE91591FD89F0700EF7F34 /* UndirectedGraphTraversalBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndirectedGraphTraversalBase.swift; sourceTree = "<group>"; };
+		1ABE915B1FD89F3900EF7F34 /* UndirectedTraversalDFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndirectedTraversalDFS.swift; sourceTree = "<group>"; };
+		1ABE915E1FD8A6EA00EF7F34 /* NAryTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAryTesting.swift; sourceTree = "<group>"; };
+		1ABE91601FD8A6FE00EF7F34 /* AVLTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTesting.swift; sourceTree = "<group>"; };
+		1ABE91621FD8A70C00EF7F34 /* RedBlackTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackTesting.swift; sourceTree = "<group>"; };
+		1ABE91641FD8A71F00EF7F34 /* BSTTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTTesting.swift; sourceTree = "<group>"; };
+		1ABE91661FD8A75400EF7F34 /* DirectedGraphTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectedGraphTesting.swift; sourceTree = "<group>"; };
+		1ABE91681FD8A75E00EF7F34 /* UndirectedGraphTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndirectedGraphTesting.swift; sourceTree = "<group>"; };
+		1ABE916A1FD8A7C300EF7F34 /* TestSuite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSuite.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABE91011FD4BFE200EF7F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABE90FB1FD4BFE200EF7F34 = {
+			isa = PBXGroup;
+			children = (
+				1ABE91061FD4BFE200EF7F34 /* SwiftGraphTerminal */,
+				1ABE91051FD4BFE200EF7F34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABE91051FD4BFE200EF7F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91041FD4BFE200EF7F34 /* SwiftGraphTerminal */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABE91061FD4BFE200EF7F34 /* SwiftGraphTerminal */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE910E1FD4C2F200EF7F34 /* Sources */,
+				1ABE91071FD4BFE200EF7F34 /* main.swift */,
+			);
+			path = SwiftGraphTerminal;
+			sourceTree = "<group>";
+		};
+		1ABE910E1FD4C2F200EF7F34 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE910F1FD4C2F200EF7F34 /* CollectionTypes */,
+				1ABE91351FD7CDCA00EF7F34 /* Graphs */,
+				1ABE911E1FD4C2F200EF7F34 /* Protocols */,
+				1ABE915D1FD8A63000EF7F34 /* Testing */,
+				1ABE91121FD4C2F200EF7F34 /* Trees */,
+				1ABE911B1FD4C2F200EF7F34 /* Info-iOS.plist */,
+				1ABE911C1FD4C2F200EF7F34 /* SwiftGraph.h */,
+				1ABE911D1FD4C2F200EF7F34 /* Info-macOS.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1ABE910F1FD4C2F200EF7F34 /* CollectionTypes */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91101FD4C2F200EF7F34 /* Stack.swift */,
+				1ABE91111FD4C2F200EF7F34 /* Queue.swift */,
+			);
+			path = CollectionTypes;
+			sourceTree = "<group>";
+		};
+		1ABE91121FD4C2F200EF7F34 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91281FD4CFA000EF7F34 /* Enumerations */,
+				1ABE91131FD4C2F200EF7F34 /* Traversals */,
+				1ABE91171FD4C2F200EF7F34 /* Nodes */,
+				1ABE911A1FD4C2F200EF7F34 /* BinaryTree.swift */,
+				1ABE912B1FD5E9D100EF7F34 /* AVLTree.swift */,
+				1ABE912D1FD74CB500EF7F34 /* RedBlackTree.swift */,
+				1ABE91501FD871CA00EF7F34 /* NAryTree.swift */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		1ABE91131FD4C2F200EF7F34 /* Traversals */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91521FD8756A00EF7F34 /* NAry */,
+				1ABE91141FD4C2F200EF7F34 /* Binary */,
+			);
+			path = Traversals;
+			sourceTree = "<group>";
+		};
+		1ABE91141FD4C2F200EF7F34 /* Binary */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91151FD4C2F200EF7F34 /* DFS.swift */,
+				1ABE91161FD4C2F200EF7F34 /* BFS.swift */,
+				1ABE91261FD4CDAD00EF7F34 /* TraversalBase.swift */,
+			);
+			path = Binary;
+			sourceTree = "<group>";
+		};
+		1ABE91171FD4C2F200EF7F34 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91181FD4C2F200EF7F34 /* NAryNode.swift */,
+				1ABE91191FD4C2F200EF7F34 /* BinaryNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		1ABE911E1FD4C2F200EF7F34 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE916A1FD8A7C300EF7F34 /* TestSuite.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1ABE91281FD4CFA000EF7F34 /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91291FD4CFB800EF7F34 /* Traversal.swift */,
+				1ABE91311FD74D0D00EF7F34 /* Color.swift */,
+				1ABE91331FD7652100EF7F34 /* NodeOrientation.swift */,
+				1ABE914E1FD84B8A00EF7F34 /* TraversalColor.swift */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		1ABE91351FD7CDCA00EF7F34 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91471FD8418F00EF7F34 /* Traversals */,
+				1ABE913D1FD7CEFE00EF7F34 /* DirectedGraph */,
+				1ABE91401FD7CF1700EF7F34 /* UndirectedGraph */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		1ABE913D1FD7CEFE00EF7F34 /* DirectedGraph */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91381FD7CDEE00EF7F34 /* DirectedGraph.swift */,
+				1ABE913E1FD7CF1100EF7F34 /* DirectedVertex.swift */,
+				1ABE91451FD7CF4C00EF7F34 /* DirectedEdge.swift */,
+			);
+			path = DirectedGraph;
+			sourceTree = "<group>";
+		};
+		1ABE91401FD7CF1700EF7F34 /* UndirectedGraph */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE913A1FD7CDF700EF7F34 /* UndirectedGraph.swift */,
+				1ABE91411FD7CF2B00EF7F34 /* UndirectedVertex.swift */,
+				1ABE91431FD7CF4200EF7F34 /* UndirectedEdge.swift */,
+			);
+			path = UndirectedGraph;
+			sourceTree = "<group>";
+		};
+		1ABE91471FD8418F00EF7F34 /* Traversals */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE914A1FD8420800EF7F34 /* DirectedGraphTraversalBase.swift */,
+				1ABE91481FD841B300EF7F34 /* DirectedTraversalBFS.swift */,
+				1ABE914C1FD84A2C00EF7F34 /* DirectedTraversalDFS.swift */,
+				1ABE91591FD89F0700EF7F34 /* UndirectedGraphTraversalBase.swift */,
+				1ABE915B1FD89F3900EF7F34 /* UndirectedTraversalDFS.swift */,
+			);
+			path = Traversals;
+			sourceTree = "<group>";
+		};
+		1ABE91521FD8756A00EF7F34 /* NAry */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91531FD8757700EF7F34 /* NAryTraversalBase.swift */,
+				1ABE91551FD875AC00EF7F34 /* NAryDFS.swift */,
+			);
+			path = NAry;
+			sourceTree = "<group>";
+		};
+		1ABE915D1FD8A63000EF7F34 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE91601FD8A6FE00EF7F34 /* AVLTesting.swift */,
+				1ABE91641FD8A71F00EF7F34 /* BSTTesting.swift */,
+				1ABE91661FD8A75400EF7F34 /* DirectedGraphTesting.swift */,
+				1ABE915E1FD8A6EA00EF7F34 /* NAryTesting.swift */,
+				1ABE91621FD8A70C00EF7F34 /* RedBlackTesting.swift */,
+				1ABE91681FD8A75E00EF7F34 /* UndirectedGraphTesting.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABE91031FD4BFE200EF7F34 /* SwiftGraphTerminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABE910B1FD4BFE200EF7F34 /* Build configuration list for PBXNativeTarget "SwiftGraphTerminal" */;
+			buildPhases = (
+				1ABE91001FD4BFE200EF7F34 /* Sources */,
+				1ABE91011FD4BFE200EF7F34 /* Frameworks */,
+				1ABE91021FD4BFE200EF7F34 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGraphTerminal;
+			productName = SwiftGraphTerminal;
+			productReference = 1ABE91041FD4BFE200EF7F34 /* SwiftGraphTerminal */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABE90FC1FD4BFE200EF7F34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = jamesmiller.io;
+				TargetAttributes = {
+					1ABE91031FD4BFE200EF7F34 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1ABE90FF1FD4BFE200EF7F34 /* Build configuration list for PBXProject "SwiftGraphTerminal" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1ABE90FB1FD4BFE200EF7F34;
+			productRefGroup = 1ABE91051FD4BFE200EF7F34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABE91031FD4BFE200EF7F34 /* SwiftGraphTerminal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABE91001FD4BFE200EF7F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABE91341FD7652100EF7F34 /* NodeOrientation.swift in Sources */,
+				1ABE91251FD4C2F200EF7F34 /* BinaryTree.swift in Sources */,
+				1ABE914F1FD84B8A00EF7F34 /* TraversalColor.swift in Sources */,
+				1ABE91611FD8A6FE00EF7F34 /* AVLTesting.swift in Sources */,
+				1ABE911F1FD4C2F200EF7F34 /* Stack.swift in Sources */,
+				1ABE912C1FD5E9D100EF7F34 /* AVLTree.swift in Sources */,
+				1ABE91631FD8A70C00EF7F34 /* RedBlackTesting.swift in Sources */,
+				1ABE91321FD74D0D00EF7F34 /* Color.swift in Sources */,
+				1ABE91221FD4C2F200EF7F34 /* BFS.swift in Sources */,
+				1ABE914B1FD8420800EF7F34 /* DirectedGraphTraversalBase.swift in Sources */,
+				1ABE91421FD7CF2B00EF7F34 /* UndirectedVertex.swift in Sources */,
+				1ABE91271FD4CDAD00EF7F34 /* TraversalBase.swift in Sources */,
+				1ABE91441FD7CF4200EF7F34 /* UndirectedEdge.swift in Sources */,
+				1ABE915C1FD89F3900EF7F34 /* UndirectedTraversalDFS.swift in Sources */,
+				1ABE91691FD8A75E00EF7F34 /* UndirectedGraphTesting.swift in Sources */,
+				1ABE912E1FD74CB500EF7F34 /* RedBlackTree.swift in Sources */,
+				1ABE91671FD8A75400EF7F34 /* DirectedGraphTesting.swift in Sources */,
+				1ABE91461FD7CF4C00EF7F34 /* DirectedEdge.swift in Sources */,
+				1ABE91541FD8757700EF7F34 /* NAryTraversalBase.swift in Sources */,
+				1ABE912A1FD4CFB800EF7F34 /* Traversal.swift in Sources */,
+				1ABE91561FD875AC00EF7F34 /* NAryDFS.swift in Sources */,
+				1ABE916B1FD8A7C300EF7F34 /* TestSuite.swift in Sources */,
+				1ABE913B1FD7CDF700EF7F34 /* UndirectedGraph.swift in Sources */,
+				1ABE91211FD4C2F200EF7F34 /* DFS.swift in Sources */,
+				1ABE91651FD8A71F00EF7F34 /* BSTTesting.swift in Sources */,
+				1ABE913F1FD7CF1100EF7F34 /* DirectedVertex.swift in Sources */,
+				1ABE91231FD4C2F200EF7F34 /* NAryNode.swift in Sources */,
+				1ABE91201FD4C2F200EF7F34 /* Queue.swift in Sources */,
+				1ABE915F1FD8A6EA00EF7F34 /* NAryTesting.swift in Sources */,
+				1ABE915A1FD89F0700EF7F34 /* UndirectedGraphTraversalBase.swift in Sources */,
+				1ABE91511FD871CA00EF7F34 /* NAryTree.swift in Sources */,
+				1ABE91391FD7CDEE00EF7F34 /* DirectedGraph.swift in Sources */,
+				1ABE91491FD841B300EF7F34 /* DirectedTraversalBFS.swift in Sources */,
+				1ABE914D1FD84A2C00EF7F34 /* DirectedTraversalDFS.swift in Sources */,
+				1ABE91081FD4BFE200EF7F34 /* main.swift in Sources */,
+				1ABE91241FD4C2F200EF7F34 /* BinaryNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1ABE91091FD4BFE200EF7F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ABE910A1FD4BFE200EF7F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		1ABE910C1FD4BFE200EF7F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1ABE910D1FD4BFE200EF7F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABE90FF1FD4BFE200EF7F34 /* Build configuration list for PBXProject "SwiftGraphTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABE91091FD4BFE200EF7F34 /* Debug */,
+				1ABE910A1FD4BFE200EF7F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABE910B1FD4BFE200EF7F34 /* Build configuration list for PBXNativeTarget "SwiftGraphTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABE910C1FD4BFE200EF7F34 /* Debug */,
+				1ABE910D1FD4BFE200EF7F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABE90FC1FD4BFE200EF7F34 /* Project object */;
+}
